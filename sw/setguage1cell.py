@@ -43,8 +43,8 @@ while True:
         guage.WriteFlashByte(48, 0, 21, 0x0D)    # Design Capacity 3350 mAh
         guage.WriteFlashByte(48, 0, 22, 0x16)    #
         print("Design Capacity")
-        guage.WriteFlashByte(48, 0, 23, 0x5E)    # Design Energy 12060 mWh
-        guage.WriteFlashByte(48, 0, 24, 0x38)    #
+        guage.WriteFlashByte(48, 0, 23, 0x2F)    # Design Energy 12177 mWh
+        guage.WriteFlashByte(48, 0, 24, 0x91)    #
         print("Design Energy")
         #guage.WriteFlashByte(64, 0, 0, 0x9)      # External Voltage Measurement
         #print "External Voltage Measurement"
@@ -70,7 +70,7 @@ while True:
         guage.WriteFlashByte(48, 0, 21, 0x0D)    # Design Capacity 3500 mAh
         guage.WriteFlashByte(48, 0, 22, 0xAC)    #
         print("Design Capacity")
-        guage.WriteFlashByte(48, 0, 23, 0x5E)    # Design Energy 12060 mWh
+        guage.WriteFlashByte(48, 0, 23, 0x31)    # Design Energy 12600 mWh
         guage.WriteFlashByte(48, 0, 24, 0x38)    #
         print("Design Energy")
         #guage.WriteFlashByte(64, 0, 0, 0x9)      # External Voltage Measurement
