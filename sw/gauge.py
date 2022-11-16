@@ -8,12 +8,12 @@ from pymlab import config
 import pandas as pd  # data parsing library
 import struct
 
-filename = './guage.csv'
+filename = './gauge.csv'
 
 df = pd.read_csv(filename,delimiter=',')  
 
 def ReadFlash(ID, offset, name, typ, units, default):
-    flash = guage.ReadFlashBlock(ID, offset // 32)
+    flash = gauge.ReadFlashBlock(ID, offset // 32)
     print(ID, '\t', offset, '\t', '"', '{:32s}'.format(name), '"', '\t', typ, '\t')
     # if (offset // 32) > 0 :
     offset = offset - 32 * (offset // 32)
@@ -71,7 +71,7 @@ cfg = config.Config(
             "address": 0x73,
             
             "children": [
-                {"name": "guage", "type": "lioncell", "channel": 7, },
+                {"name": "gauge", "type": "lioncell", "channel": 7, },
             ],
 	    },
     ],
@@ -79,7 +79,7 @@ cfg = config.Config(
 
 
 cfg.initialize()
-guage = cfg.get_device("guage")
+gauge = cfg.get_device("guage")
 
 print("Pack Configuration", hex(guage.PackConfiguration()))
 
@@ -96,8 +96,8 @@ for i in range(len(df)):
 
 while True:
     # Battery status readout
-    print("NominalAvailableCapacity =", guage.NominalAvailableCapacity(), "mAh, FullAvailabeCapacity =", guage.FullAvailabeCapacity(), "mAh, AvailableEnergy =", guage.AvailableEnergy(), "* 10 mWh")
-    print("Temp =", guage.getTemp(), "degC, RemainCapacity =", guage.getRemainingCapacity(), "mAh, cap =", guage.FullChargeCapacity(), "mAh, U =", guage.Voltage(), "mV, I =", guage.AverageCurrent(), "mA, charge =", guage.StateOfCharge(), "%")
+    print("NominalAvailableCapacity =", gauge.NominalAvailableCapacity(), "mAh, FullAvailabeCapacity =", gauge.FullAvailabeCapacity(), "mAh, AvailableEnergy =", gauge.AvailableEnergy(), "* 10 mWh")
+    print("Temp =", gauge.getTemp(), "degC, RemainCapacity =", gauge.getRemainingCapacity(), "mAh, cap =", gauge.FullChargeCapacity(), "mAh, U =", gauge.Voltage(), "mV, I =", gauge.AverageCurrent(), "mA, charge =", gauge.StateOfCharge(), "%")
     time.sleep(3)
 
 
