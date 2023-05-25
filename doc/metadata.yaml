@@ -1,0 +1,32 @@
+description: 'Singe cell Li-ion battery management module '
+github_branch: LION1CELL01B
+github_branches:
+- LION1CELL01A
+- LION1CELL01B
+github_repo: LION1CELL01
+github_url: https://github.com/mlab-modules/LION1CELL01
+homepage: false
+image: doc/img/LION1CELL01B_off_big.jpg
+images:
+- doc/img/LION1CELL01B_off_big.jpg
+- doc/img/LION1CELL01B_charge_big.jpg
+- doc/img/LION1CELL01B_small.jpg
+- doc/img/LION1CELL01B_QRcode.png
+- doc/src/Video/logo.png
+- doc/src/Video/Charging_finished.png
+- doc/src/Video/Charger_connection.png
+- doc/src/Video/Charging_started.png
+- doc/src/Video/Introduction.png
+- sw/PIC16F887/setting/V_MAX/vmax_reg.png
+- sw/PIC16F887/setting/LED_BAT7/led_reg.png
+- sw/PIC16F887/setting/Min_V_cl/v_min_reg.png
+- sw/PIC16F887/setting/Q_MAX/q_max_reg.png
+issues: 3
+mark: 50
+tags:
+- battery
+- battery-management-system
+- battery-monitor
+- battery-fuel-gauge
+- battery-protector
+title: LION1CELL01
