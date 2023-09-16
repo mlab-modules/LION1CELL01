@@ -6,7 +6,7 @@ github_branches:
 github_repo: LION1CELL01
 github_url: https://github.com/mlab-modules/LION1CELL01
 homepage: false
-image: doc/img/LION1CELL01B_off_big.jpg
+image_title: doc/img/LION1CELL01B_off_big.jpg
 images:
 - doc/img/LION1CELL01B_off_big.jpg
 - doc/img/LION1CELL01B_small.jpg
