@@ -23,6 +23,7 @@ images:
 - sw/PIC16F887/setting/Q_MAX/q_max_reg.png
 issues: 3
 mark: 50
+status: 0
 tags:
 - battery
 - battery-management-system
