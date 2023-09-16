@@ -8,19 +8,19 @@ github_url: https://github.com/mlab-modules/LION1CELL01
 homepage: false
 image_title: doc/img/LION1CELL01B_off_big.jpg
 images:
-- doc/img/LION1CELL01B_off_big.jpg
-- doc/img/LION1CELL01B_small.jpg
 - doc/img/LION1CELL01B_charge_big.jpg
-- sw/PIC16F887/setting/Q_MAX/q_max_reg.png
+- doc/img/LION1CELL01B_small.jpg
+- doc/img/LION1CELL01B_off_big.jpg
+- doc/src/Video/Charging_started.png
+- doc/src/Video/logo.png
+- doc/src/Video/Charging_finished.png
+- doc/src/Video/Charger_connection.png
+- doc/src/Video/Introduction.png
+- doc/img/LION1CELL01B_QRcode.png
 - sw/PIC16F887/setting/Min_V_cl/v_min_reg.png
 - sw/PIC16F887/setting/V_MAX/vmax_reg.png
 - sw/PIC16F887/setting/LED_BAT7/led_reg.png
-- doc/src/Video/Charger_connection.png
-- doc/src/Video/Charging_started.png
-- doc/src/Video/Charging_finished.png
-- doc/src/Video/Introduction.png
-- doc/src/Video/logo.png
-- doc/img/LION1CELL01B_QRcode.png
+- sw/PIC16F887/setting/Q_MAX/q_max_reg.png
 issues: 3
 mark: 50
 tags:
@@ -32,4 +32,4 @@ tags:
 - mlab
 - mlab-module
 title: LION1CELL01
-updated: '2023-09-11T00:36:49.018350+00:00'
+updated: '2023-09-16T16:04:06.203351+00:00'
