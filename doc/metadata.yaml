@@ -3,6 +3,7 @@ github_branch: LION1CELL01B
 github_branches:
 - LION1CELL01A
 - LION1CELL01B
+github_description: 'Singe cell Li-ion battery management module '
 github_repo: LION1CELL01
 github_url: https://github.com/mlab-modules/LION1CELL01
 homepage: false
@@ -33,4 +34,4 @@ tags:
 - mlab
 - mlab-module
 title: LION1CELL01
-updated: '2023-09-16T22:01:57.046843+00:00'
+updated: '2023-09-17T11:36:48.406584+00:00'
